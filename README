@@ -1,4 +1,4 @@
-# Centcom OCR
+# Sensec OCR
 This project runs OCR on the /files directory and saves the results in 
 a Postgres database
 
