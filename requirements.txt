@@ -1,0 +1,6 @@
+farm-haystack[ocr]==1.10
+psycopg2
+pdfminer
+pdfreader
+docx2python
+pyexiftool

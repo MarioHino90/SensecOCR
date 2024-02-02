@@ -1,0 +1,28 @@
+# Centcom OCR
+This project runs OCR on the /files directory and saves the results in 
+a Postgres database
+
+
+##### Table of Contents  
+[Requirements](#Requirements)  
+[Installation](#Installation)  
+
+
+## Requirements
+Requirements
+At a minimum, the user must have pip and Docker installed. 
+
+## Installation
+Installation
+
+The package requirements are included in the requirements.txt. To install the required packages
+on your local directory, execute the following command:
+
+`pip3 install -r requirements.txt` 
+
+To run the directory, first modify the `docker-compose-ankura.yml` file's volume mapping section to pull in the local file directory 
+to be mapped the Docker image, as seen in the example below:
+
+`volumes:
+      - /path/to/filedirectory:/files
+`
